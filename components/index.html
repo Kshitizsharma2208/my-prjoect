@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,285 +8,342 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="container">
-    <div class="Header">
-      <div class="left-side">
-        <div class="logo">
-          <img class="logo-img" src="../images/logo.png" alt="">
-          <p>Bank</p>         
-        </div>
+    <div class="header">
+      <div class="logo-container">
+        <img class="logo-img" src="../images/logo.png" alt="">
+        <span class="logo-name">Bank</span>
       </div>
       <div class="right-side">
         <select class="category">
           <option value="0">English</option>
           <option value="1">Banking</option>
           <option value="2">others</option>
-      </select>
-      <div class="headerImages">
-        <div class="Img1">
-          <img class="img" src="../images/icon-search.png" alt="">
+        </select>
+        <div class="headerImages">
+          <div class="header-action-container">
+            <img class="header-action" src="../images/icon-search.png" alt="">
+          </div>
+          <div class="header-action-container">
+            <img class="header-action" src="../images/icon-question.png" alt="">
+          </div>
+          <div class="header-action-container">
+            <img class="header-action" src="../images/icon-question.png" alt="">
+          </div>
+          <div class="header-action-container">
+            <img class="header-action" src="../images/icon-user.png" alt="">
+          </div>
         </div>
-          <div class="Img1">
-            <img class="img" src="../images/icon-question.png" alt="">
-          </div>
-          <div class="Img1">
-            <img class="img" src="../images/icon-question.png" alt="">
-          </div>
-          <div class="Img1">
-            <img class="img" src="../images/icon-user.png" alt="">
-          </div>                    
-      </div>
       </div>
     </div>
-    <div class="header-primary">
+    <div class="body-container">
       <div class="sidebar">
-        <ul class="unorder-list">
-          <li class="list-1" id="active">
-             <img class="s-i" src="../images/icon-home.png" alt=""> <a href="" class="li- color-origin"><b> Home </b></a>
+        <ul class="sidebar-list">
+          <li class="sidebar-action" id="active">
+            <img src="../images/icon-home.png" alt="">
+            <a href=""> Home </a>
           </li>
-          <li class="list-1">
-           <img class="s-i" src="../images/icon-leads.png" alt=""> <a href="" class="li-"> Lead</a>
-         </li>
-         <li class="list-1">
-           <img class="s-i" src="../images/icon-payment.png" alt=""> <a href=""class="li-">Policies</a>
-         </li>
-         <li class="list-1">
-           <img class="s-i" src="../images/icon-complains.png" alt=""> <a href=""class="li-">Complaints</a>
-         </li>
-         <li class="list-1">
-           <img class="s-i" src="../images/icon-request.png" alt=""> <a href=""class="li-">Requests</a>
-         </li>
-         <li class="list-1">
-         <img class="s-i" src="../images/icon-analytics.png" alt=""> <a href=""class="li-">Analysis</a>
-         </li>
-         </ul>
+          <li class="sidebar-action">
+            <img src="../images/icon-leads.png" alt="">
+            <a href=""> Lead</a>
+          </li>
+          <li class="sidebar-action">
+            <img src="../images/icon-payment.png" alt="">
+            <a href="">Policies</a>
+          </li>
+          <li class="sidebar-action">
+            <img src="../images/icon-complains.png" alt="">
+            <a href="">Complaints</a>
+          </li>
+          <li class="sidebar-action">
+            <img src="../images/icon-request.png" alt="">
+            <a href="">Requests</a>
+          </li>
+          <li class="sidebar-action">
+            <img src="../images/icon-analytics.png" alt="">
+            <a href="">Analysis</a>
+          </li>
+        </ul>
       </div>
       <div class="landing">
-        <div class="Container">
+
+        <h1 class="pageTitle">Welcome back <b>Rakesh</b></h1>
+
+        <div class="progressContainer">
+
+          <div class="headingLeft">
+            <h4 class="headingTop">Target Progress</h4>
+            <span class="progress-badge" id="color">2 more to go!</span>
+            <div class="viewDeatilsContainer">
+              <img src="../images/icon-doc.png" style="width: 24px; height: 24px" alt="">
+              <span> view details</span>
+            </div>
+          </div>
+
+          <div class="progressWrapper">
+            <div class="leadInfo">
+              <p style="color: #59329d;margin:0">3 leads</p>
+              <p style="font-size: 12px;margin: 0;">Generated till now</p>
+            </div>
+            <div class="arrow-down"></div>
+            <div class="progress"></div>
+
+            <div class="bottomLeadsWrapper">
+              <div class="">
+                <p style="color: red;margin:0">↓ 2 leads</p>
+                <p style="font-size: 12px;margin: 0;">Leads from last week</p>
+              </div>
+              <div style="text-align: right;">
+                <p style="color: green;margin:0">↑ 3 leads</p>
+                <p style="font-size: 12px;margin: 0;">Target for this week</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="celebrationSection" style="margin-top: 20px;">
+            <div class="appreciate-text">
+              <img src="../images/icon-circle-tick.png" alt="" />
+              <p>Manoj is leading with 7 lead generation</p>
+            </div>
+            <div class="avg-text">
+              <img src="../images/icon-circle-tick.png" alt="" />
+              <p>Average lead generation this week is 4 lead</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="section-container">
           <div class="leftContainer">
             <div class="card1">
               <div class="headingLeft">
                 <h4 class="headingTop">Work in Progress</h4>
                 <span class="badge" id="color">3</span>
               </div>
-              <div class="innerContent">
-                <div class="middleElement">
+              <div class="card">
+                <div class="cardHeader">
                   <div class="img">
                     <img class="innerImg" src="../images/icon-circle-tick.png" alt="">
                   </div>
-                  <div class="quotes">
+                  <div class="cardHeaderContent">
                     <p class="quotePoint">Quotes:22875640</p>
                     <p class="bottomQuote">last edited two days ago</p>
                   </div>
                 </div>
-                <div class="footerElement">
+                <div class="cardFooter">
                   <div class="leftBottom">
-                    <p class="Customer">Customer</p>
-                    <h4 class="customerName">Sunil Kulkuli</h4> 
+                    <p class="label">Customer</p>
+                    <h4 class="value">Sunil Kulkuli</h4>
                   </div>
                   <div class="rightBottom">
-                    <p class="sum">Insures Sum</p>
-                    <p class="money-earn"><b>$--</p></b>
+                    <p class="label">Insures Sum</p>
+                    <p class="value"><b>$--</p></b>
                   </div>
                 </div>
               </div>
-              <div class="innerContent">
-                <div class="middleElement">
+              <div class="card">
+                <div class="cardHeader">
                   <div class="img">
                     <img class="innerImg" src="../images/icon-doc.png" alt="">
                   </div>
-                  <div class="quotes">
+                  <div class="cardHeaderContent">
                     <p class="quotePoint">Quotes:22875640</p>
                     <p class="bottomQuote">last edited two days ago</p>
                   </div>
                 </div>
-                <div class="footerElement">
+                <div class="cardFooter">
                   <div class="leftBottom">
-                    <p class="Customer">Customer</p>
-                    <h4 class="customerName">Sunil Kulkuli</h4> 
+                    <p class="label">Customer</p>
+                    <h4 class="value">Sunil Kulkuli</h4>
                   </div>
                   <div class="rightBottom">
-                    <p class="sum">Insures Sum</p>
-                    <p class="money-earn"><b>$--</p></b>
+                    <p class="label">Insures Sum</p>
+                    <p class="value"><b>$--</p></b>
                   </div>
                 </div>
               </div>
-              <div class="innerContent">
-                <div class="middleElement">
+              <div class="card">
+                <div class="cardHeader">
                   <div class="img">
                     <img class="innerImg" src="../images/icon-doller-ok.png" alt="">
                   </div>
-                  <div class="quotes">
+                  <div class="cardHeaderContent">
                     <p class="quotePoint">Quotes:22875640</p>
                     <p class="bottomQuote">last edited two days ago</p>
                   </div>
                 </div>
-                <div class="footerElement">
-                  <div class="leftBottom">
-                    <p class="Customer">Customer</p>
-                    <h4 class="customerName">Sunil Kulkuli</h4> 
+                <div class="cardFooter footer">
+                  <div class="data-row">
+                    <div class="leftBottom">
+                      <p class="label">Customer</p>
+                      <h4 class="value">Sunil Kulkuli</h4>
+                    </div>
+                    <div class="rightBottom">
+                      <p class="label">Insures Sum</p>
+                      <p class="value"><b>$--</p></b>
+                    </div>
                   </div>
-                  <div class="rightBottom">
-                    <p class="sum">Insures Sum</p>
-                    <p class="money-earn"><b>$--</p></b>
+                  <div class="containerFooter">
+                    <div class="leftBottom" id="boxA">
+                      <p class="label">Policy type</p>
+                      <p class="value">Home Insurance</p>
+                    </div>
+                    <div class="rightBottom" id="boxB">
+                      <p class="label">Insurance </p>
+                      <p class="value"><b class="lic">LIC of India</p> </b>
+                    </div>
                   </div>
                 </div>
-              </div>
-              
-              <div class="containerFooter">
-                <div class="box-1" id="boxA">
-                  <p class="policy-type">Policy type</p>
-                   <h4 class="policy">Home Insurance</h4> 
-
-                </div>
-                <div class="box-2" id="boxB">
-                  <p class="Insurece">Insurance </p>
-                  <p class="Insurece-money"><b class="lic">LIC of India</p> </b> 
-               </div>
               </div>
             </div>
           </div>
+
           <div class="middleContainer">
             <div class="card2">
               <div class="headingLeft">
                 <h4 class="headingTop">Pending request</h4>
                 <span class="badge">1</span>
               </div>
-              <div class="innerContent">
-                <div class="middleElement">
+              <div class="card">
+                <div class="cardHeader">
                   <div class="img">
-                    <img class="innerImg" src="../images/icon-doller-up.png" alt="">
+                    <img class="innerImg" src="../images/icon-doller-ok.png" alt="">
                   </div>
-                  <div class="quotes">
+                  <div class="cardHeaderContent">
                     <p class="quotePoint">Quotes:22875640</p>
                     <p class="bottomQuote">last edited two days ago</p>
                   </div>
                 </div>
-                <div class="footerElement">
-                  <div class="leftBottom">
-                    <p class="Customer">Customer</p>
-                    <h4 class="customerName">Sunil Kulkuli</h4> 
+                <div class="cardFooter footer">
+                  <div class="data-row">
+                    <div class="leftBottom">
+                      <p class="label">Customer</p>
+                      <h4 class="value">Sunil Kulkuli</h4>
+                    </div>
+                    <div class="rightBottom">
+                      <p class="label">Insures Sum</p>
+                      <p class="value"><b>$--</p></b>
+                    </div>
                   </div>
-                  <div class="rightBottom">
-                    <p class="sum">Insures Sum</p>
-                    <p class="money-earn"><b>$--</p></b>
+                  <div class="containerFooter">
+                    <div class="leftBottom" id="boxA">
+                      <p class="label">Policy type</p>
+                      <p class="value">Home Insurance</p>
+                    </div>
+                    <div class="rightBottom" id="boxB">
+                      <p class="label">Insurance </p>
+                      <p class="value"><b class="lic">LIC of India</p> </b>
+                    </div>
                   </div>
-                </div>
-                <div class="containerFooter">
-                  <div class="box-1">
-                    <p class="policy-type">Policy type</p>
-                     <h4 class="policy">Home Insurance</h4> 
-  
-                  </div>
-                  <div class="box-2">
-                    <p class="Insurece">Insurance </p>
-                    <p class="Insurece-money"><b class="lic">LIC of India</p> </b> 
-                 </div>
                 </div>
               </div>
-             
-              <div class="innerContent">
-                <div class="middleElement">
+
+              <div class="card">
+                <div class="cardHeader">
                   <div class="img">
-                    <img class="innerImg" src="../images/icon-doller-up.png" alt="">
+                    <img class="innerImg" src="../images/icon-doller-ok.png" alt="">
                   </div>
-                  <div class="quotes">
+                  <div class="cardHeaderContent">
                     <p class="quotePoint">Quotes:22875640</p>
                     <p class="bottomQuote">last edited two days ago</p>
                   </div>
                 </div>
-                <div class="footerElement">
-                  <div class="leftBottom">
-                    <p class="Customer">Customer</p>
-                    <h4 class="customerName">Sunil Kulkuli</h4> 
+                <div class="cardFooter footer">
+                  <div class="data-row">
+                    <div class="leftBottom">
+                      <p class="label">Customer</p>
+                      <h4 class="value">Sunil Kulkuli</h4>
+                    </div>
+                    <div class="rightBottom">
+                      <p class="label">Insures Sum</p>
+                      <p class="value"><b>$--</p></b>
+                    </div>
                   </div>
-                  <div class="rightBottom">
-                    <p class="sum">Insures Sum</p>
-                    <p class="money-earn"><b>$--</p></b>
+                  <div class="containerFooter">
+                    <div class="leftBottom" id="boxA">
+                      <p class="label">Policy type</p>
+                      <p class="value">Home Insurance</p>
+                    </div>
+                    <div class="rightBottom" id="boxB">
+                      <p class="label">Insurance </p>
+                      <p class="value"><b class="lic">LIC of India</p> </b>
+                    </div>
                   </div>
-                </div>
-                <div class="containerFooter">
-                  <div class="box-1">
-                    <p class="policy-type">Policy type</p>
-                     <h4 class="policy">Home Insurance</h4> 
-                  </div>
-                  <div class="box-2">
-                    <p class="Insurece">Insurance </p>
-                    <p class="Insurece-money"><b  class="lic">LIC of India</p> </b> 
-                 </div>
                 </div>
               </div>
-            
-              <div class="innerContent">
-                <div class="middleElement">
+
+              <div class="card">
+                <div class="cardHeader">
                   <div class="img">
-                    <img class="innerImg" src="../images/icon-doller-up.png" alt="">
+                    <img class="innerImg" src="../images/icon-doller-ok.png" alt="">
                   </div>
-                  <div class="quotes">
+                  <div class="cardHeaderContent">
                     <p class="quotePoint">Quotes:22875640</p>
                     <p class="bottomQuote">last edited two days ago</p>
                   </div>
                 </div>
-                <div class="footerElement">
-                  <div class="leftBottom">
-                    <p class="Customer">Customer</p>
-                    <h4 class="customerName">Sunil Kulkuli</h4> 
+                <div class="cardFooter footer">
+                  <div class="data-row">
+                    <div class="leftBottom">
+                      <p class="label">Customer</p>
+                      <h4 class="value">Sunil Kulkuli</h4>
+                    </div>
+                    <div class="rightBottom">
+                      <p class="label">Insures Sum</p>
+                      <p class="value"><b>$--</p></b>
+                    </div>
                   </div>
-                  <div class="rightBottom">
-                    <p class="sum">Insures Sum</p>
-                    <p class="money-earn"><b>$--</p></b>
+                  <div class="containerFooter">
+                    <div class="leftBottom" id="boxA">
+                      <p class="label">Policy type</p>
+                      <p class="value">Home Insurance</p>
+                    </div>
+                    <div class="rightBottom" id="boxB">
+                      <p class="label">Insurance </p>
+                      <p class="value"><b class="lic">LIC of India</p> </b>
+                    </div>
                   </div>
                 </div>
-                <div class="containerFooter">
-                  <div class="box-1">
-                    <p class="policy-type">Policy type</p>
-                     <h4 class="policy">Home Insurance</h4> 
-                  </div>
-                  <div class="box-2">
-                    <p class="Insurece">Insurance </p>
-                    <p class="Insurece-money"><b  class="lic">LIC of India</p> </b> 
-                 </div>
-                </div>                          
-              </div> 
-             
+              </div>
             </div>
           </div>
+
           <div class="rightContainer">
             <div class="card-3">
-              <div class="Header-3">
-                  <h4 class="h1">Search customer</h4>
-                  <div class="p-header">
-                      <p class="p-point">Search customer by there register mobile number or cif number</p>
+              <div class="headingLeft searchContainer">
+                <h4 class="headingTop">Search Customer</h4>
+                <p class="p-point">Search customer by there register mobile number or cif number</p>
+
+                <div class="login-deatils">
+                  <div class="checkbox">
+                    <input class="checkbox1" type="checkbox" name="Checkin" id="">
                   </div>
-                  <div class="login-deatils" >
-                      <div class="checkbox">
-                          <input class="checkbox1" type="checkbox" name="Checkin" id="">
-                      </div>
-                      <div class="customer-id">
-                          <input class="search" type="text" name="submit" placeholder="Customer Id">
-                          <img class="img-search" src="../images/info-grey.png" alt="">
-                      </div>
+                  <div class="customer-id">
+                    <input class="search" type="text" name="submit" placeholder="Customer Id">
+                    <img class="img-search" src="../images/info-grey.png" alt="">
                   </div>
-                  <div class="login-password">
-                      <div class="checkbox">
-                          <input class="checkbox1" type="checkbox" name="Checkin" id="">
-                      </div>
-                      <div class="customer-id">
-                          <input class="search" type="text" name="submit" placeholder="Enter Phone Number">
-                          <img class="img-search" src="../images/" alt="">
-                      </div>
-                  </div>                  
-                  <div class="login-button">
-                      <button class="search-btn">login</button>
+                </div>
+                <div class="password-container">
+                  <div class="checkbox">
+                    <input class="checkbox1" type="checkbox" name="Checkin" id="">
                   </div>
-              </div>             
+                  <div class="customer-id">
+                    <input class="search" type="text" name="submit" placeholder="Enter Phone Number">
+                    <img class="img-search" src="../images/info-grey.png" alt="">
+                  </div>
+                </div>
+                <div class="login-btn">
+                  <button class="search-btn">login</button>
+                </div>
+              </div>
+            </div>
           </div>
+
         </div>
-        
-        
       </div>
     </div>
-  </div>
 </body>
+
 </html>
