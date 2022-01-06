@@ -1,0 +1,287 @@
+body{
+    background: #f6f8fb;
+   
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 25px;
+  background: #59329d;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+.headerImages {
+  display: flex;
+  padding-left: 44px;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.category {
+  height: 34px;
+  padding: 0px 7px;
+}
+.img {
+  width: 24px;
+  height: 24px;
+}
+.logo-img {
+  height: 41px;
+  width: 41px;
+}
+.Img1 {
+  width: 37px;
+  margin-right: 12px;
+}
+.sidebar {
+  width: 256px;
+  background: #fff;
+  height: 100%;
+}
+.list-1 active {
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+.list-1 {
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  padding-bottom: 9px;
+  margin-top: 15px;
+}
+.unorder-list {
+  margin-top: 26px;
+  padding: 0;
+}
+.s-i {
+  padding-right: 12px;
+  width: 24px;
+  height: 24px;
+  padding-bottom: 6px;
+  padding-left: 17px;
+}
+.li {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  padding-left: 72px;
+  text-decoration: none;
+}
+.li- {
+  text-decoration: none;
+  margin-left: 12px;
+}
+#active {
+  background: #f7f5fa;
+  border-left: 7px solid#59329d;
+  border-radius: 3px;
+}
+.header-primary {
+  display: flex;
+}
+.Container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.leftContainer {
+    background: #fff;
+    border-radius: 8px;
+}
+.middleContainer {
+    background: #fff;
+    border-radius: 8px;
+}
+.rightContainer {
+    background: #fff;
+    border-radius: 8px;
+}
+.middleElement {
+  display: flex;
+  background: #f1eef7;
+  align-items: center;
+  margin-inline: 8px;
+  margin-top: 5px;
+
+}
+.footerElement {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 27px;
+}
+.containerFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 16px;
+}
+
+.headingLeft {
+  width: 100%;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+   top: 0;
+   z-index: 1;
+   background-color: white;
+}
+.badge {
+  display: flex;
+  border-radius: 25px;
+  margin-left: 10px;
+  padding: 5px;
+  background: yellow;
+}
+#color {
+  background: #ec4176;
+  color: #fff;
+}
+.innerContent {
+  margin-bottom: 19px;
+  border: 1px solid #eee;
+  margin-inline: 7px;
+}
+.img{
+    width: 30px;
+    margin-left: 8px;
+   
+}
+.innerImg{
+    width: 100%;
+}
+.quotes{
+    margin-left: 7px;
+}
+#boxA{
+    padding-left: 16px;
+
+}
+#boxB{
+    padding-right: 8px;
+}
+.p-header{
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+}
+.login-deatils{
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.login-password{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.checkbox1{
+    width: 28px;
+  
+    height: 22px;
+}
+.search{
+    background: #fff;
+    border-radius: 4px;
+    width: 249px;
+    padding: 11px 13px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 12px;
+
+}
+.login-button{
+    margin-top: 23px;
+    margin-left: 121px;
+
+}
+.search-btn{
+    width: 104px;
+height: 38px;
+border-radius: 6px;
+background: #59329d;
+color: #fff;
+font-weight: 600;
+}
+.box-1{
+    padding-left: 11px;
+}
+.box-2{
+    padding-right: 4px;
+}
+.card1{
+    max-height: 560px;
+    height: 100%;
+    padding-bottom: 30px;
+    overflow-y: auto;
+}
+.card2{
+    max-height: 560px;
+    height: 100%;
+    padding-bottom: 30px;
+    overflow-y: auto;
+}
+.bottomQuote{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+}
+.Customer{
+    font-weight: 400;
+    color: #333;
+}
+
+.sum {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+
+}
+
+.money-earn {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.Insurance{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+}
+.policy-type{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+
+}
+.customerName{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+
+}
+.policy{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.lic{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+
+
+}
