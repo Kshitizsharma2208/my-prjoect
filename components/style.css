@@ -379,3 +379,60 @@ body{
   margin: 0;
   font-size: 14px;
 }
+.btns-1{
+  color: #59329d;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px #fff;
+    background: #fff;
+}
+.btns-{
+  display: flex;
+  justify-content: space-around;
+  padding-right: 402px;
+  border: 1px #fff;
+ margin-bottom: 24px;
+
+}
+.bigFooter{
+  padding: 12px;
+  background-color:  #fff;
+}
+.footerContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 14px;
+}
+.footer-small-container{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.footerRight{
+  display: flex;
+align-items: center;
+}
+.calendar{
+  width: 37px;
+  height: 37px;
+}
+.footer-small-left{
+  border: 1px solid #eee;
+  margin-right: 12px;
+}
+.img-graph_{
+  width: 100%;
+  height: 100%;
+}
+.footer-small-right{
+  border: 1px solid #eee;
+}
+.message{
+  background: #f1eef7;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+}
