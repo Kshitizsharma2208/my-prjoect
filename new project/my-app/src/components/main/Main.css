@@ -1,0 +1,64 @@
+.profileDetails{
+    display: flex;
+    align-items: center;
+
+}
+.profileImg{
+    width: 100px;
+    height: 100px;
+}
+.prfileName{
+    font-size: 19px;
+    font-weight: 900;
+    margin: 10px 28px;
+}
+.designation{
+    margin: 0px 29px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.joining{
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 29px;
+}
+.mainContent{
+    padding: 10px;
+    margin-left: 27px;
+    
+}
+.headerSecondary{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchBar{
+    display: flex;
+}
+.searchLogo{
+    margin-left: -28px;
+}
+.searchImg{
+    width: 25px;
+    height: 31px;
+  
+}
+.textImg{
+    width: 170px;
+    height: 30px;
+    background: #f1eef7;
+    border: 2px #fff;
+    padding-left: 20px;
+    border-radius: 3px;
+}
+.logout{
+    height: 31px;
+    border-radius: 3px;
+    background: #59329d;
+    color: #fff;
+    font-weight: 600;
+}
+.logoutButton{
+    margin-left: 10px;
+}

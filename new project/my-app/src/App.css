@@ -1,0 +1,9 @@
+.headerPrimary{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.landing{   
+    width: calc(100% - 250px);
+    padding: 5px 50px;
+}
