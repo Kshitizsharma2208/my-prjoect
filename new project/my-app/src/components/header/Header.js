@@ -14,7 +14,7 @@ const Header = () => {
           <img className="logo" src={logo} alt="" />
         </div>
         <div className="textLogo">
-          <p className="text" >bank</p>
+          <p className="text" >bank logo</p>
         </div>
       </div>
       <div className="right-side">
