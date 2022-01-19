@@ -7,6 +7,7 @@ function App() {
   return (
     <DefaultLayout>
       <Landing />
+      <h1>Gitpod test</h1>
      </DefaultLayout>
   );
 }
